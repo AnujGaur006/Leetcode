@@ -6,7 +6,7 @@ Notice that the solution set must not contain duplicate triplets.
 
  */
 
-package Arrays;
+package TwoPointers;
 
 import java.util.ArrayList;
 import java.util.Arrays;

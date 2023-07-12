@@ -8,7 +8,7 @@ Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,
 
  */
 
-package Arrays;
+package TwoPointers;
 
 class ContainerWithMostWater {
     public int maxArea(int[] height){

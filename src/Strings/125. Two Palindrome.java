@@ -3,7 +3,7 @@ package Strings;
 class Solution {
     public boolean isPalindrome(String s) {
 
-        StringBuffer str = new StringBuffer();
+        StringBuilder str = new StringBuilder();
 
         // removing all non-alphanumeric characters
         for(int i=0;i<s.length();i++){
