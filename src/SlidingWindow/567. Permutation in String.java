@@ -40,4 +40,9 @@ class CheckInclusion {
         }
         return true;
     }
+
+    public static void main(String[] args){
+        CheckInclusion ci = new CheckInclusion();
+        ci.checkInclusion("ab","eduhbauuu");
+    }
 }

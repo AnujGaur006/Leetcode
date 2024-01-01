@@ -1,6 +1,6 @@
 package LinkedListProblems;
 
-class RemoveNthNode {
+class   RemoveNthNode {
     /**
      * Definition for singly-linked list.
      * public class ListNode {

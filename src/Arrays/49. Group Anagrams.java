@@ -1,6 +1,7 @@
 package Arrays;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 class GroupAnagram {
     public List<List<String>> groupAnagrams(String[] strs) {
@@ -23,11 +24,6 @@ class GroupAnagram {
             }
         }
 
-        List<List<String>> result = new ArrayList<>();
-        for(Map.Entry<String,List<String>> data : anagram.entrySet()){
-            result.add(data.getValue());
-        }
-
-        return result;
+        return new ArrayList<>(anagram.values());
     }
 }
